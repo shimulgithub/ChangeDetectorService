@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      profile: dev
+      name: discovery
+      label: main
+      allow-override: false
+      uri: http://localhost:7777
+  profiles:
+    active: dev
